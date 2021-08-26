@@ -1,7 +1,8 @@
 export default {
   id: '5',
   title: "Logitech MX Master 3 Advanced Wireless Mouse for Mac - Bluetooth/USB",
-  description: `Features & details
+  description: 'A ergonomic mouse for work ultra precise for Mac, Windows and Linux',
+  details: `Features & details
   - MAGSPEED WHEEL: Ultra-fast, precise, quiet MagSpeed electromagnetic scrolling
   - DARKFIELD 4000 DPI SENSOR: Darkfield 4000 DPI sensor for precise tracking on any surface, even glass (up to 4mm in thickness)
   - COMFORTABLE DESIGN: Tactile reference for hand positioning makes it easy to stay oriented and in your flow

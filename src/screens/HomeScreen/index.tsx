@@ -1,13 +1,12 @@
 import React from "react";
 import { View, FlatList } from "react-native";
-import Styles  from "./style";
 import ProductItem  from '../../components/ProductItem';
 
 import products from "../../../assets/data/products";
 
 const HomeScreen = () => {
   return (
-    <View style={Styles.container}>
+    <View style={{padding: 10}}>
       <FlatList 
         data={products}
         renderItem={({item}) => <ProductItem item={item}/>}
