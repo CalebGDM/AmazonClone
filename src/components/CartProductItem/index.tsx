@@ -3,6 +3,7 @@ import { View, Text, Image, TouchableOpacity } from "react-native";
 import Styles from "./style";
 import { FontAwesome } from "@expo/vector-icons";
 import QuantitySelector from "../QuantitySelector";
+import { Picker } from "@react-native-picker/picker";
 
 interface cartProductItemProps {
   cartItem: {
@@ -26,6 +27,7 @@ const CartProductItem = ({ cartItem }: cartProductItemProps) => {
 
   const [quantity, setQuantity] = useState(quantityProp);
   const [option, setOption] = useState(optionProp);
+  console.log(option)
 
   return (
     <View style={Styles.root}>
@@ -68,7 +70,7 @@ const CartProductItem = ({ cartItem }: cartProductItemProps) => {
         </View>        
         <TouchableOpacity style={Styles.optionButton}>
           <Text>Delete</Text>
-        </TouchableOpacity>
+        </TouchableOpacity>        
       </View>
     </View>
   );

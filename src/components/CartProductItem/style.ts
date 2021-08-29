@@ -47,9 +47,9 @@ const Styles = StyleSheet.create({
         marginBottom: 10,
     },
     optionButton:{
-        width: 80,
+        width: 150,
         height: 30,
-        marginLeft: 30,
+        marginLeft: 20,
         justifyContent: 'center',
         alignItems: 'center',
         borderWidth: 2,
